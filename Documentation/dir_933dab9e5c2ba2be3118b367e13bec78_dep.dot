@@ -1,0 +1,13 @@
+digraph "/Users/rstals0/Unity Projects/SCORMTestApplication/Assets/WebPlayerTemplates" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_282666c4a01741616f0b7673dd5af272 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Assets" fontname="Helvetica", fontsize="10", URL="dir_282666c4a01741616f0b7673dd5af272.html"]
+  subgraph clusterdir_933dab9e5c2ba2be3118b367e13bec78 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_933dab9e5c2ba2be3118b367e13bec78.html"];
+    dir_933dab9e5c2ba2be3118b367e13bec78 [shape=plaintext label="WebPlayerTemplates"];
+    dir_a757f32199bd8f03ec26b1d0c59f3f9a [shape=box label="SCORM" color="red" fillcolor="white" style="filled" URL="dir_a757f32199bd8f03ec26b1d0c59f3f9a.html"];
+  }
+  }
+}

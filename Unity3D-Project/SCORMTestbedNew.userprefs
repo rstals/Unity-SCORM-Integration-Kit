@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Presentation_Template/Assets/Scripts/Keyboard_rotation.js">
+    <Files>
+      <File FileName="../Presentation_Template/Assets/Shaders/Vignette.cs" Line="1" Column="1" />
+      <File FileName="../Presentation_Template/Assets/Scripts/Keyboard_rotation.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

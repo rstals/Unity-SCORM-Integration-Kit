@@ -1,0 +1,14 @@
+digraph "/Users/rstals0/Unity Projects/SCORMTestApplication/Assets/SCORM" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_282666c4a01741616f0b7673dd5af272 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Assets" fontname="Helvetica", fontsize="10", URL="dir_282666c4a01741616f0b7673dd5af272.html"]
+  subgraph clusterdir_f1cba44bd40c2c05d6f6fb22a4626dae {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f1cba44bd40c2c05d6f6fb22a4626dae.html"];
+    dir_f1cba44bd40c2c05d6f6fb22a4626dae [shape=plaintext label="SCORM"];
+    dir_22d723a0ea88d9604c3b087c47f1daf3 [shape=box label="_Scripts" color="black" fillcolor="white" style="filled" URL="dir_22d723a0ea88d9604c3b087c47f1daf3.html"];
+    dir_fd1d60f53c9170ba3648b7188131287a [shape=box label="Editor" color="black" fillcolor="white" style="filled" URL="dir_fd1d60f53c9170ba3648b7188131287a.html"];
+  }
+  }
+}

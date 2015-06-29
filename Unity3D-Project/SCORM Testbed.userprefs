@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ADL SCORM/Plugins/ScormManager.cs">
+    <Files>
+      <File FileName="Assets/ADL SCORM/Plugins/ScormManager.cs" Line="331" Column="40" />
+      <File FileName="Assets/_Scripts/ControllerMain.cs" Line="152" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

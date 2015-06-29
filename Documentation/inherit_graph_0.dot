@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="AnObjective",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_an_objective.html",tooltip="Allows the display of Objectives in the GUI. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ControllerMain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_controller_main.html",tooltip="The example scene&#39;s main controller "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ScormManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_scorm_manager.html",tooltip="The main interface between your Unity3D code and the SCORM API (via the ScormManager and the ScormAPI..."];
+}

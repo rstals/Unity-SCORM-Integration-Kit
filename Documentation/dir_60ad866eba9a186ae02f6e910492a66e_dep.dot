@@ -1,0 +1,13 @@
+digraph "/Users/rstals0/Unity Projects/SCORMTestApplication" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7dc2a13eb243428a69514c0f1af4fba9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Unity Projects" fontname="Helvetica", fontsize="10", URL="dir_7dc2a13eb243428a69514c0f1af4fba9.html"]
+  subgraph clusterdir_60ad866eba9a186ae02f6e910492a66e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_60ad866eba9a186ae02f6e910492a66e.html"];
+    dir_60ad866eba9a186ae02f6e910492a66e [shape=plaintext label="SCORMTestApplication"];
+    dir_282666c4a01741616f0b7673dd5af272 [shape=box label="Assets" color="red" fillcolor="white" style="filled" URL="dir_282666c4a01741616f0b7673dd5af272.html"];
+  }
+  }
+}

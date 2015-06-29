@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ScormAPIWrapper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_scorm_a_p_i_wrapper.html",tooltip="Scorm API wrapper. Forms the &#39;Bridge&#39; between the Unity3D code and the scorm.js code that communicate..."];
+}
