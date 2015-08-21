@@ -137,7 +137,7 @@ function doTerminate()
    }
    
    initialized = false;
-
+    window.close();
    return result.toString();
 }
 

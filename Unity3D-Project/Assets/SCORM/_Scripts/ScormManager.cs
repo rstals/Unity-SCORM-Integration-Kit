@@ -257,6 +257,8 @@ public class ScormManager : MonoBehaviour {
 			
 			//Set the interaction Values
 			int i = studentRecord.interactions.Count;
+
+			studentRecord.interactions.Add(interaction);
 			
 			identifier = "cmi.interactions."+i+".id";
 			strValue = interaction.id;
@@ -315,7 +317,7 @@ public class ScormManager : MonoBehaviour {
 				}
 			}
 
-			studentRecord.interactions.Add(interaction);
+
 
 
 		} catch(System.Exception e) {
@@ -419,6 +421,8 @@ public class ScormManager : MonoBehaviour {
 			
 			//Set the Comment Values
 			int i = studentRecord.commentsFromLearner.Count;
+
+			studentRecord.commentsFromLearner.Add(comment);
 			
 			identifier = "cmi.comments_from_learner."+i+".comment";
 			strValue = comment.comment;
@@ -432,7 +436,7 @@ public class ScormManager : MonoBehaviour {
 			strValue = String.Format("{0:s}", comment.timeStamp);
 			scormAPIWrapper.SetValue(identifier,strValue);
 
-			studentRecord.commentsFromLearner.Add(comment);
+
 			
 		} catch(System.Exception e) {
 			UnityEngine.Application.ExternalCall("DebugPrint", "***CallAddCommentFromLearner***" + e.Message +"<br/>" + e.StackTrace + "<br/>" + e.Source );
@@ -500,6 +504,8 @@ public class ScormManager : MonoBehaviour {
 			//Set the Objective Values
 			int i = studentRecord.objectives.Count;
 
+			studentRecord.objectives.Add(objective);
+
 			identifier = "cmi.objectives."+i+".id";
 			strValue = objective.id;
 			scormAPIWrapper.SetValue(identifier,strValue);
@@ -536,7 +542,7 @@ public class ScormManager : MonoBehaviour {
 			strValue = objective.description;
 			scormAPIWrapper.SetValue(identifier,strValue);
 			
-			studentRecord.objectives.Add(objective);
+
 			
 		} catch(System.Exception e) {
 			UnityEngine.Application.ExternalCall("DebugPrint", "***CallAddObjective***" + e.Message +"<br/>" + e.StackTrace + "<br/>" + e.Source );

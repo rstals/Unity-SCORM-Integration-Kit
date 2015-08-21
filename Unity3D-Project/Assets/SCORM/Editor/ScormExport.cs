@@ -211,8 +211,8 @@ public class ScormExport : EditorWindow {
 								"\t\t\t<adlcp:timeLimitAction>"+timeLimitAction+"</adlcp:timeLimitAction>\n" +
 								"\t\t\t<adlcp:dataFromLMS>"+PlayerPrefs.GetString("Data_From_Lms")+"</adlcp:dataFromLMS> \n" +
 								"\t\t\t<adlcp:completionThreshold completedByMeasure = \""+ (System.Convert.ToBoolean(PlayerPrefs.GetInt("completedByMeasure"))).ToString().ToLower() +"\" minProgressMeasure= \""+PlayerPrefs.GetFloat("minProgressMeasure") +"\" />\n" +
-								"\t\t\t<imsss:sequencing id=\"SEQ01\">\n" +
-								"\t\t\\tt<imsss:limitConditions attemptAbsoluteDurationLimit=\""+timeLimit+"\"/>\n" +
+								"\t\t\t<imsss:sequencing>\n" +
+								"\t\t\t<imsss:limitConditions attemptAbsoluteDurationLimit=\""+timeLimit+"\"/>\n" +
 								"\t\t\t</imsss:sequencing>\n" +
 								"\t\t</item>\n" +
 								"\t</organization>\n" +
