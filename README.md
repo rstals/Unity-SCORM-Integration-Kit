@@ -6,3 +6,5 @@ The previous version (WebPLayer version) has been kept for archive purposes.
 For all new integration, please use the unity package marked with a postfix of "WebGL".
 
 The integration and guides remain the same with the update to WebGL.
+
+A new, quick and dirty tutorial can be found at: https://youtu.be/YZdLBiho4Hw
