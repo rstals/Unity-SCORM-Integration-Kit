@@ -7,4 +7,6 @@ For all new integration, please use the unity package marked with a postfix of "
 
 The integration and guides remain the same with the update to WebGL.
 
-A new, quick and dirty tutorial can be found at: https://youtu.be/YZdLBiho4Hw
+A Tutorial Series on Getting started on the Unity-SCORM Integration Kit: https://youtu.be/zME-qdYaK8c
+
+A quick and dirty walk through can be found at: https://youtu.be/YZdLBiho4Hw
