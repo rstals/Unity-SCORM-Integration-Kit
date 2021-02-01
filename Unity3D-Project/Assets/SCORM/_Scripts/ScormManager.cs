@@ -298,7 +298,7 @@ public class ScormManager : MonoBehaviour {
 			if(interaction.objectives != null) {
 				int objectivesCount = interaction.objectives.Count;
 				if(objectivesCount != 0) {
-					for (int x = 0; x < objectivesCount; i++) {
+					for (int x = 0; x < objectivesCount; x++) {
 						identifier = "cmi.interactions."+i+".objectives."+x+".id";
 						strValue = interaction.objectives[x].id;
 						scormAPIWrapper.SetValue(identifier,strValue);
