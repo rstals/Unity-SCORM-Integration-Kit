@@ -4,6 +4,7 @@ authors:
 - family-names: "Stals"
   given-names: "Richard"
 - family-names: "Advance Distributed Learning"
+  given-names: "[ADL]"
 title: "Unity-SCORM Integration Kit"
 version: 2.0
 date-released: 2015-07-29
