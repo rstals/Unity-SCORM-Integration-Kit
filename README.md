@@ -1,11 +1,10 @@
 # Unity-SCORM-Integration-Kit
-Integrate Unity3d Projects with your LMS via SCORM
+Integrate Unity3d Projects with your LMS via SCORM WEB GL for unity 6
 
-Note: Since Unity3D transitioned from the WebPLayer plugin to using WebGL, updates have been required to the SCORM Integration kit.
-The previous version (WebPLayer version) has been kept for archive purposes.
-For all new integration, please use the unity package marked with a postfix of "WebGL".
 
-The integration and guides remain the same with the update to WebGL.
+## Tutorials
+
+These are abit dated but the basic premise is there
 
 A Tutorial Series on Getting started on the Unity-SCORM Integration Kit: https://youtu.be/zME-qdYaK8c
 
